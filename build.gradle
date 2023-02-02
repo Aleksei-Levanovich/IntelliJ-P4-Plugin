@@ -5,7 +5,7 @@ buildscript {
 }
 
 plugins {
-    id "org.jetbrains.intellij" version "0.6.5"
+    id "org.jetbrains.intellij" version "1.12.0"
 }
 
 apply plugin: 'idea'
@@ -15,19 +15,19 @@ apply plugin: 'antlr'
 
 intellij {
     version = ideaVersion
-    pluginName 'P4 Plugin'
+//    pluginName 'P4 Plugin'
 }
 
 group 'org.p4.p4plugin'
 version pluginVersion
 
 wrapper {
-    gradleVersion "6.0.1"
+    gradleVersion "7.6"
 }
 
 compileJava {
-    sourceCompatibility = "1.8"
-    targetCompatibility = "1.8"
+    sourceCompatibility = "17"
+    targetCompatibility = "17"
 }
 
 sourceSets {

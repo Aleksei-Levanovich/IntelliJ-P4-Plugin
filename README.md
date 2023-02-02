@@ -39,7 +39,7 @@ gradle runIde
 ### Build the plugin
 
 ```
-gradle buildPlugin [-PideaVersion=2019.3]
+gradle buildPlugin
 ```
 
 After build, you will get the plugin zip file in `build/distributions/` 
